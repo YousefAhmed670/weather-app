@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container my-3">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex p-2">
+                    <img src="images/logo.png" alt="logo" class="w-100 m-2">
+                    <div class="m-2">
+                        <h1 class="fs-5 fw-bolder text-white">Weather</h1>
+                        <p class="logo-text">Tagline goes here</p>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active m-3 py-1 px-4" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3 py-1 px-4" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3 py-1 px-4" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3 py-1 px-4" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link m-3 py-1 px-4" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background-page d-flex justify-content-center align-items-center">
+        <div class="container">
+            <form class="findLocation position-relative">
+                <input class="form-control py-3 border border-0 rounded-pill text-white" type="text"
+                    placeholder="Find your location..." id="search">
+                <input class="btn py-2 px-5 border border-0 rounded-pill text-white" type="button" value="Find"
+                    id="submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="box-table py-2">
+        <div class="container my-2">
+            <div class="weather-container my-3 " id="weatherData">
+                <p class="text-info-emphasis">dgf</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container my-3 py-3">
+            <div class="row my-3 d-flex justify-content-center align-items-center">
+                <div class="col-lg-8 my-3">
+                    <form class="subscribe-form position-relative my-3">
+                        <input class="form-control py-3 border border-0 rounded-pill text-white" type="text"
+                            placeholder="Enter your email to subscribe...">
+                        <input class="btn py-2 px-5 border border-0 rounded-pill text-white" type="submit"
+                            value="Subscribe">
+                    </form>
+                </div>
+                <div class="col-lg-3 my-2 text-center">
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook p-1 fs-3 m-1"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter p-1 fs-3 m-1"></i></a>
+                        <a href="#"><i class="fa-brands fa-google p-1 fs-3 m-1"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest p-1 fs-3 m-1"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-white-50 py-2 my-3 text-center">Copyright 2014 Company name. Designed by Themezy. All rights
+                reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

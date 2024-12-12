@@ -1,0 +1,86 @@
+body {
+  background-color: #1e202b;
+}
+body p {
+  color: white;
+}
+.navbar {
+  background-color: #1e202b;
+}
+.navbar .container .navbar-brand .logo-text {
+  font-size: 0.7rem;
+  font-weight: 200;
+}
+.navbar .container .navbar-brand img {
+  height: 2.8rem;
+}
+.navbar-nav .nav-link.active {
+  color: #009ad8;
+  border: solid 2px #009ad8;
+  border-radius: 1.5rem;
+}
+.navbar-nav .nav-link {
+  color: white;
+  transition: 0.1s;
+}
+.navbar-nav .nav-link:hover {
+  color: #009ad8;
+  border: solid 2px #009ad8;
+  border-radius: 1.5rem;
+}
+.navbar .container li {
+  text-align: center;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.background-page {
+  height: 350px;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background-page .container .findLocation .form-control {
+  background-color: #1e202b;
+}
+.background-page .container .findLocation .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.596);
+  padding: 20px;
+}
+.background-page .container .findLocation .btn {
+  background-color: #009ad8;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.gray {
+  background-color: #323544;
+}
+.dark-gray {
+  background-color: #2d303d;
+}
+.dark {
+  background-color: #262936;
+}
+.darker {
+  background-color: #222531;
+}
+footer {
+  background-color: #262936;
+}
+footer .container .subscribe-form .form-control {
+  background-color: #1e202b;
+}
+footer .container .subscribe-form .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.596);
+  padding: 20px;
+}
+footer .container .subscribe-form .btn {
+  background-color: #009ad8;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
